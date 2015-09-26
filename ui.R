@@ -6,7 +6,7 @@ library(shinyAce)
 shinyUI(bootstrapPage(
 
 
-    headerPanel("McNemar's Test and Cochran’s Q Test"),
+    headerPanel("McNemar's Test and Cochran's Q Test"),
 
 
 
@@ -135,9 +135,9 @@ tags$div("Loading...",id="loadmessage")),
 
 
 
-        tabPanel("Cochran’s Q Test (Raw data)",
+        tabPanel("Cochran's Q Test (Raw data)",
 
-            h2("Cochran’s Q Test (Raw data)"),
+            h2("Cochran's Q Test (Raw data)"),
 
             h4("Related samples (repeated measures) with nominal data"),
 
